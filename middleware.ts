@@ -6,6 +6,8 @@ export function middleware(request: NextRequest) {
     return NextResponse.next()
   }
 
+
+
   const authHeader = request.headers.get("authorization")
   if (authHeader) {
     const [scheme, encoded] = authHeader.split(" ")
