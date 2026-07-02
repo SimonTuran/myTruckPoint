@@ -81,7 +81,7 @@ export interface TaskTileData {
 /* --------------------------- Identity / chrome --------------------------- */
 
 export const portal = {
-  brand: "DEMOPORTAL",
+  brand: "T-System Concept",
   company: "Daimler Truck AG (GER)",
   user: {
     name: "Kari Nordmann",
