@@ -1,22 +1,18 @@
-/**
- * Simple geometric three-point star glyph used as a placeholder brand mark.
- * Intentionally schematic — not a reproduction of any trademarked asset.
- */
+
+
+
 export function BrandStar({ className }: { className?: string }) {
   return (
-    <svg
-      viewBox="0 0 100 100"
-      className={className}
-      role="img"
-      aria-label="Brand logo placeholder"
-      fill="none"
-    >
-      <circle cx="50" cy="50" r="46" stroke="currentColor" strokeWidth="5" />
-      <g stroke="currentColor" strokeWidth="5" strokeLinejoin="round">
-        <path d="M50 50 L50 8" />
-        <path d="M50 50 L86 71" />
-        <path d="M50 50 L14 71" />
-      </g>
+    <svg viewBox="0 0 100 100" className={className} role="img"aria-label="Brand logo placeholder"fill="currentColor">
+      <path
+        transform="translate(-30, -10) scale(1.63)"
+        d="M63.7,26.5c-1.7-2.9-4.1-5.3-7-7c-2.9-1.7-6.2-2.5-9.5-2.5c-3.3,0-6.6,0.9-9.5,2.5c-2.9,1.7-5.3,4.1-7,7
+		c-1.7,2.9-2.5,6.2-2.5,9.5c0,3.3,0.9,6.6,2.5,9.5c1.7,2.9,4.1,5.3,7,7c2.9,1.7,6.2,2.5,9.5,2.5c3.3,0,6.6-0.9,9.5-2.5
+		c2.9-1.7,5.3-4.1,7-7c1.7-2.9,2.5-6.2,2.5-9.5C66.2,32.7,65.4,29.4,63.7,26.5z M30.1,36c0-3,0.8-6,2.3-8.5c1.5-2.6,3.7-4.8,6.3-6.3
+		c2.4-1.4,5.2-2.2,8-2.3l-2.2,15.5l-12.4,9.7C30.8,41.6,30.1,38.8,30.1,36z M55.8,50.8c-2.6,1.5-5.5,2.3-8.6,2.3c-3,0-6-0.8-8.5-2.3
+		c-2.4-1.4-4.5-3.4-6-5.8l14.5-5.9L61.8,45C60.3,47.4,58.2,49.4,55.8,50.8z M62.3,44.1L50,34.4l-2.2-15.5c2.8,0.1,5.6,0.9,8,2.3
+		c2.6,1.5,4.8,3.7,6.3,6.3c1.5,2.6,2.3,5.5,2.3,8.5C64.3,38.8,63.7,41.6,62.3,44.1z"
+      />
     </svg>
   )
 }
